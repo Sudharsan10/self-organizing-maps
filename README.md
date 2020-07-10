@@ -23,12 +23,7 @@ A Self-Organization Map implementation on a 13-Dimensional wine data belonging t
 
 8 Puzzle solver is a basic app to perform brute force search coupled with breadth first search algorithm to find solution 
 to a given 8 tile puzzle configuration.
-## Work in progress
-- [X] Replace GUI with better UI design and styles.
-- [X] Add documentation for Solver and project
-- [ ] Feat: add feature Save solution
-- [ ] Feat: add feature load custom user puzzle from a .txt file
-- [X] add How to use app instructions
+
 
 ## Table of contents
 - [Quick start](#quick-start)
@@ -46,7 +41,7 @@ There are two ways to run this app:
 - [Download the latest Docker container.]() and run from the app in that container ( NOte: No Docker container at the moment)
 - Clone the repo: 
     > ```shell script
-    > git clone https://github.com/Sudharsan10/TilePuzzelSolver-App.git
+    > git clone https://github.com/Sudharsan10/self-organizing-maps.git
     > ```
     
 ## Status
