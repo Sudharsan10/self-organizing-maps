@@ -11,7 +11,6 @@
   <br>
     <a href=""><strong>Explore Self Organizing Maps docs »</strong></a>
     <br>
-    <br>
     <a href="https://github.com/Sudharsan10/self-organizing-maps/issues/new">Report bug</a>
     ·
     <a href="https://github.com/Sudharsan10/self-organizing-maps/issues/new">Request feature</a>    
