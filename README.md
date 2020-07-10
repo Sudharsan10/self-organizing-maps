@@ -44,9 +44,11 @@ There are two ways to run this app:
 [![Documentation Status](https://img.shields.io/badge/Documentation-yes-e01563)](https://github.com/Sudharsan10/TilePuzzelSolver-App/tree/master/img/logo)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-e01563.svg)](https://github.com/Sudharsan10/TilePuzzelSolver-App/graphs/commit-activity)
 [![made-with-python](https://img.shields.io/badge/Python%20Version-3.8.3-brightgreen)](https://www.python.org/)
-[![pip-version](https://img.shields.io/badge/pip%20Version-20.0.2-brightgreen)](https://pip.pypa.io/en/stable/installing/)
-[![pyqt-version](https://img.shields.io/badge/PyQt5%20Version-5.14.2-brightgreen)](https://pypi.org/project/PyQt5/)
-[![numpy-version](https://img.shields.io/badge/numpy%20Version-1.18.1-brightgreen)](https://pypi.org/project/numpy/)
+[![pip-version](https://img.shields.io/badge/pip%20-20.0.2-brightgreen)](https://pip.pypa.io/en/stable/installing/)
+[![pyqt-version](https://img.shields.io/badge/Matplotlib%20-3.1.3-brightgreen)](https://pypi.org/project/PyQt5/)
+[![pyqt-version](https://img.shields.io/badge/OpenCV%20-4.0.1-brightgreen)](https://pypi.org/project/PyQt5/)
+[![pyqt-version](https://img.shields.io/badge/Pandas%20-1.0.3-brightgreen)](https://pypi.org/project/PyQt5/)
+[![numpy-version](https://img.shields.io/badge/numpy%20-1.18.1-brightgreen)](https://pypi.org/project/numpy/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-0366d6.svg)](http://commonmark.org)
 [![contributors](https://img.shields.io/badge/Contributors-01-0366d6)](https://github.com/Sudharsan10/TilePuzzelSolver-App/graphs/contributors)
 [![Logo](https://img.shields.io/badge/Logo-Adobe%20Photoshop-20639B.svg)](https://github.com/Sudharsan10/TilePuzzelSolver-App/graphs/commit-activity)
@@ -79,81 +81,16 @@ Self Organizing Maps/
 ├── main.py
 └── setup.py
 ```
-# ------>>> Rest of the content Under Progress <<<----
 
-## Documentation
-### Contents:
-1. [How to use](#howtouse)
-2. [Architecture](#architecture)
-3. [Solver.py](#solver_py)
-4. [Node obj Data structure](#node)
-    
-### 1 How to use <a id ='howtouse'></a>
-Navigate to the project folder containing setup.py and run it. If using command line to run it, you can follow the command given below,
-```shell script
-python  setup.py
-```
-Enter the initial state of the puzzle and goal state of the puzzle as shown in the fig below.
-
-Now you have three actions to perform in the form of three different button in the options section in the right side of the app.
-They are,
-1. [Find solution](#find-solution)
-2. [Is solvable?](#is-solvable)
-3. [Reset](#reset)
-
-##### 1.2.1 Is solvable? <a id ='is-solvable'></a>
-If you wish only to check for the solution feasibility for given state then you can use this button just to check the solution feasibility.
-
-##### 1.2.2 Find solution <a id ='find-solution'></a>
-This button triggers the autoSolve() function, which in checks for the solution feasibility if solution is feasible then 
-it calls the method solve() from the TilePuzzleSolver class, upon completion of solve() method, backtrack() method is called.
-Which returns the solution to the given puzzle states as a list of numpy array. This can be seen well in the flowchart below.
-
-##### 1.2.3 Reset <a id ='reset'></a>
-This button resets all the fields in the GUI by triggering the ClearAll() method.
-
-If the Find Solution action is performed and upon success, a new button simulation will be visible in the options section 
-and simulation section also becomes visible with four more action buttons and a simulation output area.
-
-**Auto/Manual toggle Button:** Toggles visibility between start, stop button with manual navigation buttons - next, previous.
-
-**Start/Pause buttons:** Starts and stops the simulation sates
-
-**Next/Previous buttons:** use it to manually switch to the next/previous state in solution
-
-**Reset button:** it reset the simulation output and toggles back to start/pause button.
-
-<p align="center">
-    <img src=".\img\htu01.png" width="100%" alt="how-to-use-01">
-    .
-    <img src=".\img\htu02.png" width="100%" alt="how-to-use-02">
-    .
-    <img src=".\img\htu03.png" width="100%" alt="how-to-use-03">
-    .
-    <img src=".\img\htu04.png" width="100%" alt="how-to-use-04">
-    .
-    <img src=".\img\htu05.png" width="100%" alt="how-to-use-05">
-  </a>  
-</p>
-
-### 2 Architecture<a id='architecture'></a>
-<img src=".\img\architecture.png" width="100%" />
-
-### 3 solver.py<a id='sovler'></a>
-<img src=".\img\solver.png" width="100%" />
-
-### 4 Node obj Data Structure<a id='node'></a>
-<img src=".\img\node.png" width="100%" />
-
-
+# Note: Few of the sections are under progress, if you need info on those sections please feel free to reach out to me s10@terpmail.umd.edu
 ## Bugs and feature requests
 Have a bug or a feature request? Search for existing and closed issues, if your problem or idea is not addressed yet, 
-[please open a new issue](https://github.com/Sudharsan10/TilePuzzelSolver-App/issues/new).
+[please open a new issue](https://github.com/Sudharsan10/self-organizing-maps/issues/new).
 
 ## Creators
 **@Sudharsan** : <https://github.com/Sudharsan10>
 
 <p align='center'>
     <a id='thanks'></a>
-    Thank you for visiting our Repo!
+    Thank you for stopping by!
 </p>
