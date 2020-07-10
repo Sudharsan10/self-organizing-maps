@@ -1,28 +1,24 @@
-# self-organizing-maps
-A Self-Organization Map implementation on a 13-Dimensional wine data belonging to 3 classes.
-
 <meta name="google-site-verification" content="anaQPdlDO5QzFwQQ6mpEFvfJXLj2Ue8-EFylgHd7JlU" />
 
 <p align="center">
-  <a href="https://github.com/Sudharsan10/TilePuzzelSolver-App">
-    <img src=".\img\project_social_card01.png" alt="Social-header">
+  <a href="https://github.com/Sudharsan10/self-organizing-maps">
+    <img src=".\img\card.png" alt="Social-header">
   </a>  
 </p>
 
 <p align="center">
-  An 8 Tile Puzzle solver app.  
+  13-D Wine data visualization & classification using 2D Self Organizing Maps.  
   <br>
-    <a href=""><strong>Explore 8 Tile Puzzle solver app docs »</strong></a>
+    <a href=""><strong>Explore Self Organizing Maps docs »</strong></a>
     <br>
     <br>
-    <a href="https://github.com/Sudharsan10/TilePuzzelSolver-App/issues/new">Report bug</a>
+    <a href="https://github.com/Sudharsan10/self-organizing-maps/issues/new">Report bug</a>
     ·
-    <a href="https://github.com/Sudharsan10/TilePuzzelSolver-App/issues/new">Request feature</a>    
+    <a href="https://github.com/Sudharsan10/self-organizing-maps/issues/new">Request feature</a>    
 </p>
 
 
-8 Puzzle solver is a basic app to perform brute force search coupled with breadth first search algorithm to find solution 
-to a given 8 tile puzzle configuration.
+Self Organizing Map - An Unsupervised learning technique to visualize and classify 13 dimensional wine data by mapping  it to a 2D map.
 
 
 ## Table of contents
@@ -54,8 +50,6 @@ There are two ways to run this app:
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-0366d6.svg)](http://commonmark.org)
 [![contributors](https://img.shields.io/badge/Contributors-01-0366d6)](https://github.com/Sudharsan10/TilePuzzelSolver-App/graphs/contributors)
 [![Logo](https://img.shields.io/badge/Logo-Adobe%20Photoshop-20639B.svg)](https://github.com/Sudharsan10/TilePuzzelSolver-App/graphs/commit-activity)
-[![Flow-charts](https://img.shields.io/badge/Flowcharts-MS%20Power%20Point-20639B.svg)](https://github.com/Sudharsan10/TilePuzzelSolver-App/graphs/commit-activity)
-[![UI](https://img.shields.io/badge/GUI-PyQt5%20&%20CSS-FEBB13.svg)](https://github.com/Sudharsan10/TilePuzzelSolver-App/graphs/commit-activity)
 
 
 ## What's included
@@ -63,73 +57,29 @@ Within the download you'll find the following directories and files, logically g
 You'll see something like this:
 
 ```text
-TilePuzzleSolver/
-├── controller/
-|   ├── __init__.py
-|   └── gui_controller.py   
+Self Organizing Maps/   
 ├── data/
-|   ├── __init__.py
-|   └── ui_data.py 
+|   ├── Processed/...
+|   └── Raw/...
 ├── docs/ ...
 ├── img/ ...
-├── solver/
+├── notebooks/
 |   ├── __init__.py
 |   ├── test_tile_puzzle_solver.py 
 |   └── tile_puzzle_solver.py
-├── ui/
-|   ├── __init__.py  
-|   ├── gui.py
-|   └── TilePuzzleSolverGUI.ui
+├── src/
+|   ├── handler/
+|   |   ├── __init__.py
+|   |   └── utility.py
+|   └── som
+|       ├── __init__.py
+|       ├── som.py
+|       └── som2d.py
 ├── Readme.md
-├── styles.css
+├── main.py
 └── setup.py
 ```
-
-
-## Pre-requisites
-This app depends on ```numpy``` and ```PyQt5``` libraries. We can setup this up using pip installer or conda virtual environment tool.
-
-- setting up using pip installer
-    > ```shell script
-    > pip install numpy
-    >```
-    
-    > ```shell script
-    > pip install PyQt5 
-    Note: If you have both python2 and python3 installed replace ```pip``` with ```pip3``` when using python3. In case you need to install
-    ```pip``` follow this [link](#https://pip.pypa.io/en/stable/installing/) to get ```pip``` setup before running the above commands.
-    
-- setting up using conda environment for ```python3```     
-    > ```shell script
-    > conda install -c anaconda numpy
-    >```
-    
-    > ```shell script
-    > conda install -c anaconda pyqt
-    > ```
-    Note: To install and setup anaconda environment follow this [link](#https://docs.anaconda.com/anaconda/install/) first and visit this section again after successfully setting up the conda environment.
-
-## Run instructions
-To run the app, first finish the pre-requisites mentioned, then
-1. Clone the repo in terminal using following command: 
-    > ```shell script
-    > git clone https://github.com/Sudharsan10/TilePuzzelSolver-App.git
-    > ```
-    or download github repo as ```.zip``` and extract it in the desired location.
-    
-2. In terminal navigate to the root folder abd locate the ```setup.py``` file and run the following command:
-    > ```shell script
-    > python setup.py
-    > ```
-
-If every requirement is fulfilled a window should open as follow,
-
-<p align="center;">
-    <a href="https://github.com/Sudharsan10/TilePuzzelSolver-App">
-    <img src=".\img\ui\start_screen.png" width="100%" alt="start-screen">
-    </a>
-</p>
-
+# ------>>> Rest of the content Under Progress <<<----
 
 ## Documentation
 ### Contents:
